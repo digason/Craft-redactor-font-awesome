@@ -21,8 +21,9 @@
     }
   ],
   "require": {
-    "craftcms/cms": "^3.0.0-RC15",
-    "craftcms/redactor": "^2.0"
+    "php": "^7.4|^8.0",
+    "craftcms/cms": "^3.0.0 | ^4.0.0",
+    "craftcms/redactor": "^2.0 | ^3.0"
   },
   "repositories": [
     {
@@ -47,5 +48,11 @@
     "documentationUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/README.md",
     "changelogUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/CHANGELOG.md",
     "class": "svenjungnickel\\redactorfontawesome\\RedactorFontAwesome"
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": false,
+      "yiisoft/yii2-composer": false
+    }
   }
 }
